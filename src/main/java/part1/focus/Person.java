@@ -1,4 +1,4 @@
-package focus;
+package part1.focus;
 
 /**
  * Created by LitVV on 19.06.2016.

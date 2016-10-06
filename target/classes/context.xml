@@ -60,7 +60,7 @@
         </property>
     </bean>
 
-    <bean id="person" class="focus.Person">
+    <bean id="person" class="part1.focus.Person">
         <constructor-arg name="family" value="Litvinenka"/>
         <constructor-arg name="firstName" value="Vitali"/>
         <!--<constructor-arg type="java.lang.String" value="dddd1"/>
@@ -70,5 +70,7 @@
     <bean id="string" class="java.lang.String">
         <constructor-arg value="Trust Me now!"/>
     </bean>
+
+    <bean id="person2" class="part1.reflections.Person"/>
 
 </beans>

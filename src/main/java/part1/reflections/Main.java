@@ -1,4 +1,6 @@
-package ExampleReflection;
+package part1.reflections;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -9,6 +11,8 @@ public class Main {
 
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InvocationTargetException, InstantiationException {
 
-        Person person = ObjectFactory.createObject(Person.class);
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
+
+        //Person person = ObjectFactory.createObject(Person.class);
     }
 }

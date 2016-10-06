@@ -1,6 +1,6 @@
-package closures;
+package part2.closures;
 
-import focus.Person;
+import part1.focus.Person;
 
 import java.util.ArrayList;
 import java.util.Collections;

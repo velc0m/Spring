@@ -1,4 +1,4 @@
-package ExampleReflection;
+package part1.reflections;
 
 /**
  * Created by LitVV on 18.06.2016.
