@@ -9,8 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
-        //TalkingRobot talkingRobot = context.getBean(TalkingRobot.class);
-        //talkingRobot.talk();
+        TalkingRobot talkingRobot = context.getBean(TalkingRobot.class);
+        talkingRobot.talk();
 
         //По классу но будет Exception, т.к. есть две реализации интерфейса
         //Quoter bean0 = context.getBean(Quoter.class);
