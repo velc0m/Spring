@@ -1,18 +1,16 @@
-package part3.quoters;
+package part4.dependson;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@ComponentScan(basePackages = {"part3.quoters", "part3.framework"})
-@PropertySource("classpath:quoters.properties")
+@PropertySource("classpath:application.properties")
 public class JavaConfig {
 
     @Bean
-    public PropertySourcesPlaceholderConfigurer configurer() {
+    PropertySourcesPlaceholderConfigurer configurer() {
         return new PropertySourcesPlaceholderConfigurer();
     }
 }
