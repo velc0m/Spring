@@ -17,10 +17,10 @@ public class Main32 {
         TalkingRobot bean = (TalkingRobot) context.getBean("talkingRobotImpl");
         bean.talk();*/
 
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
+        //AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
 
-        System.out.println("-------------------------");
+        /*System.out.println("-------------------------");
         part3.quoters.TalkingRobot bean = context.getBean(part3.quoters.TalkingRobot.class);
-        bean.talk();
+        bean.talk();*/
     }
 }
