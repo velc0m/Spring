@@ -1,11 +1,11 @@
 package part4.Больница;
 
 import org.springframework.beans.factory.config.BeanDefinition;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.*;
 
 @Configuration
+@ComponentScan("part6.aop")
+@Import(part5.task51.Config.class) //For Aspect
 public class Config {
 
     @Bean
